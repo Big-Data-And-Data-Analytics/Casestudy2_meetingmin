@@ -1,6 +1,6 @@
 # Meeting minutes
 
-Foobar is for creating meeting summary and entity recognition of words like todo, completed, Issues & irrelevant topics.
+Meeting minutes is for creating meeting summary and entity recognition of words like todo, completed, Issues & irrelevant topics.
 
 ## Installation
 install all the packages from requirements.txt
