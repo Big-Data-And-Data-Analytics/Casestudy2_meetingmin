@@ -8,11 +8,11 @@ from numpy.core.fromnumeric import size
 import pandas as pd
 from nltk import word_tokenize, pos_tag
 
-authenticator = IAMAuthenticator('8BbBYknIR2hNCdZLHzDjXzqSKramqHGy-AT57PYbVX8j')
+authenticator = IAMAuthenticator('******')
 service = SpeechToTextV1(authenticator=authenticator)
-#service.set_service_url('https://api.eu-de.speech-to-text.watson.cloud.ibm.com/instances/a7ca155d-bf1b-497d-a8b7-fc5eda16e5e1')
+
 def getText():
-    IBM_API_ENDPOINT = "https://api.eu-de.speech-to-text.watson.cloud.ibm.com/instances/5f63d6e7-8cbc-4e39-9688-105e30ed0b8e"
+    IBM_API_ENDPOINT = "*******"
     service.set_service_url(IBM_API_ENDPOINT)
     models = service.list_models().get_result()
     #print(json.dumps(models, indent=2))
