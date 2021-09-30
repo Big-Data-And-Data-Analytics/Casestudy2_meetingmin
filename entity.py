@@ -258,7 +258,7 @@ def entity_pred_neo():
     list_theme = ['Completed','greet','Unassigned','Issues']
     execution_commands = []
 
-    data_base_connection = GraphDatabase.driver(uri="bolt://localhost:7687",auth=("neo4j","mom"))
+    data_base_connection = GraphDatabase.driver(uri="bolt://localhost:7687",auth=("****","*****"))
     session = data_base_connection.session()
     
     for i, val in enumerate(list_theme):
